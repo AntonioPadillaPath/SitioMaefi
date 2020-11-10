@@ -37,7 +37,7 @@
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/pastel1.jpg);
+    background-image: url(imagenes/pastel.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,7 +185,7 @@ html
 
 .seccion1 h1
 {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 12%;
 }
 
@@ -526,8 +526,49 @@ div div h1
 .mainSeccionShow1
 {
     width: 100%;
-    min-height: 50vh;
+    min-height: 32vh;
     background-color: rgb(34, 3, 92);
+    padding-top: 3%;
+}
+
+.mainSeccionShowPrincesas
+{
+    width: 100%;
+    min-height: 32vh;
+    background-color: rgb(241, 20, 157);
+    padding-top: 3%;
+}
+
+.mainSeccionShowHistorias
+{
+    width: 100%;
+    min-height: 32vh;
+    background-color: rgb(94, 1, 180);
+    padding-top: 3%;
+}
+
+.mainSeccionShowSuper
+{
+    width: 100%;
+    min-height: 32vh;
+    background-color: rgb(8, 220, 248);
+    padding-top: 3%;
+}
+
+.mainSeccionShowInteractivos
+{
+    width: 100%;
+    min-height: 32vh;
+    background-color: rgb(255, 231, 16);
+    padding-top: 3%;
+}
+
+.mainSeccionShowPeques
+{
+    width: 100%;
+    min-height: 32vh;
+    background-color: rgb(16, 255, 76);
+    padding-top: 3%;
 }
 
 .mainSeccionAladin
@@ -546,6 +587,17 @@ div div h1
     width: 100%;
     min-height: 50vh;
     background-image: url(imagenes/Shows/Bella.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSeccionBellaD
+{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(imagenes/Shows/BellaDurmiente.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1021,6 +1073,22 @@ div div h1
     background-attachment: fixed;
 }
 
+.notaInteractivo
+{
+    color: chartreuse;
+}
+
+.listaShows li a
+{
+    color: gold;
+}
+
+.listaShows li a:hover
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 
 
 /*Link para llamar por teléfono*/
@@ -1035,3 +1103,16 @@ div div h1
     color: rgb(255, 13, 13);
     text-decoration: none;
 }
+
+.logoContacto
+{
+    width: 60%;
+}
+
+
+
+/*
+Arreglar la ventana modal
+Redirigir todos los links
+poner el JS para el logo
+*/
