@@ -652,7 +652,7 @@ div div h1
 {
     width: 100%;
     min-height: 50vh;
-    background-image: url(imagenes/Shows/Frozen2.jpg);
+    background-image: url(imagenes/Shows/Frozen2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -829,7 +829,7 @@ div div h1
 .mainSeccionCars
 {
     width: 100%;
-    min-height: 50vh;
+    min-height: 80vh;
     background-image: url(imagenes/Shows/Cars.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -880,6 +880,29 @@ div div h1
     background-size: cover;
     background-attachment: fixed;
 }
+
+.mainSeccionMinions
+{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(imagenes/Shows/Minions.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSeccionTrolls
+{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(imagenes/Shows/Trolls.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 .mainSeccionMoana
 {
@@ -989,7 +1012,7 @@ div div h1
 {
     width: 100%;
     min-height: 50vh;
-    background-image: url(imagenes/Shows/Heroinas.jpg);
+    background-image: url(imagenes/Shows/Heorinas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1090,6 +1113,31 @@ div div h1
     font-size: 18px;
 }
 
+.linkModalShows
+{
+    font-size: 20px;
+    color: white;
+}
+
+.linkModalShows:hover
+{
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+}
+
+.linkModalShows div
+{
+    background-color: rgba(36, 33, 37, 0.39);
+    border-radius: 10px;
+}
+
+.linkModalShows div:hover
+{
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 10px;
+}
+
 
 /*Link para llamar por teléfono*/
 
@@ -1115,4 +1163,5 @@ div div h1
 Arreglar la ventana modal
 Redirigir todos los links
 poner el JS para el logo
+Agregar Minions y Trolls, Día de muertos
 */
